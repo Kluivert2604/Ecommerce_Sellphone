@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EcommerceSellphone</string>
+    <string name="detail_macbook">MacBook Pro 13 inch là thiết bị đầu tiên được trang bị bộ vi xử lý M2 hoàn toàn mới của Apple. Mặc dù công ty cho biết M1 Pro và M1 Max vẫn sẽ có lợi thế hơn về hiệu suất nhờ có thêm lõi nhưng M2 thể hiện một bước tiến khá lớn so với M1. M2 có CPU 8 nhân với 4 lõi tiết kiệm điện và 4 lõi hiệu năng, GPU 10 lõi, nhiều hơn 2 lõi so với GPU trong M1, có thể chạy mượt mà các tác vụ của một chiếc laptop đồ họa - kỹ thuật như thiết kế, chỉnh ảnh hay render video trên phần mềm của Adobe như: Photoshop, Premiere,... Đồng thời bộ vi xử lý cũng được tích hợp đến 20 triệu bóng bán dẫn.</string>
+</resources>
