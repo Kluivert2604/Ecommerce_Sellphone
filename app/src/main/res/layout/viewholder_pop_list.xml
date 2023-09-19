@@ -8,7 +8,7 @@
     android:layout_margin="8dp">
 
     <ImageView
-        android:id="@+id/imgPic1"
+        android:id="@+id/pic"
         android:layout_width="175dp"
         android:layout_height="155dp"
         android:src="@drawable/pic1"
@@ -57,24 +57,27 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/txtTieuDe"
+        android:id="@+id/txtTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+        android:singleLine="true"
         android:text="Tổng quan"
         android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view4" />
 
     <TextView
-        android:id="@+id/txtChiPhi"
+        android:id="@+id/txtFee"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="35.000.000 VND"
         android:textColor="@color/red"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/txtTieuDe"
-        app:layout_constraintTop_toBottomOf="@+id/txtTieuDe" />
+        app:layout_constraintStart_toStartOf="@+id/txtTitle"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
 
     <TextView
         android:id="@+id/txtReview"
@@ -93,7 +96,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:src="@drawable/review"
-        app:layout_constraintBottom_toBottomOf="@+id/txtChiPhi"
+        app:layout_constraintBottom_toBottomOf="@+id/txtFee"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/txtChiPhi" />
+        app:layout_constraintTop_toTopOf="@+id/txtFee" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -43,7 +43,6 @@
                     android:src="@drawable/arrow" />
 
                 <TextView
-                    android:id="@+id/textView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
@@ -62,7 +61,6 @@
                 android:layout_height="match_parent" />
 
             <TextView
-                android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -108,7 +106,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
                 <TextView
-                    android:id="@+id/txtTongPhu"
+                    android:id="@+id/txtTotalFee"
                     style="@style/textStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -117,24 +115,24 @@
                     app:layout_constraintTop_toTopOf="@+id/textView3" />
 
                 <TextView
-                    android:id="@+id/txtGiaoHang"
+                    android:id="@+id/txtDelivery"
                     style="@style/textStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="VND-"
-                    app:layout_constraintEnd_toEndOf="@+id/txtTongPhu"
-                    app:layout_constraintTop_toBottomOf="@+id/txtTongPhu" />
+                    app:layout_constraintEnd_toEndOf="@+id/txtTotalFee"
+                    app:layout_constraintTop_toBottomOf="@+id/txtTotalFee" />
 
                 <TextView
-                    android:id="@+id/txtTongTax"
+                    android:id="@+id/txtTotalTax"
                     style="@style/textStyle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="VND-"
-                    app:layout_constraintEnd_toEndOf="@+id/txtGiaoHang"
-                    app:layout_constraintTop_toBottomOf="@+id/txtGiaoHang" />
+                    app:layout_constraintEnd_toEndOf="@+id/txtDelivery"
+                    app:layout_constraintTop_toBottomOf="@+id/txtDelivery" />
 
                 <View
                     android:id="@+id/view"
@@ -158,7 +156,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/view" />
 
                 <TextView
-                    android:id="@+id/txtTongCong"
+                    android:id="@+id/txtTotal"
                     style="@style/textStyleBold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -169,7 +167,6 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <TextView
-                android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"

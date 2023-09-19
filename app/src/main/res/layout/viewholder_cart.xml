@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imgPic"
+        android:id="@+id/pic"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:src="@drawable/pic1"
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toTopOf="@+id/view6" />
 
     <TextView
-        android:id="@+id/txtTongQuan"
+        android:id="@+id/txtTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -46,8 +46,8 @@
         android:layout_height="wrap_content"
         android:text="0 VND"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imgPic"
-        app:layout_constraintStart_toStartOf="@+id/txtTongQuan" />
+        app:layout_constraintBottom_toBottomOf="@+id/pic"
+        app:layout_constraintStart_toStartOf="@+id/txtTitle" />
 
     <TextView
         android:id="@+id/txtTotalEachItem"
@@ -59,7 +59,7 @@
         android:textSize="18sp"
         android:textColor="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/txtTongQuan" />
+        app:layout_constraintTop_toTopOf="@+id/txtTitle" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="100dp"

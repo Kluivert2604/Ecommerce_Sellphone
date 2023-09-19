@@ -20,7 +20,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/imgArrow"
+                    android:id="@+id/backBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -37,9 +37,9 @@
                     android:layout_marginEnd="16dp"
                     android:padding="2dp"
                     android:src="@drawable/bookmark"
-                    app:layout_constraintBottom_toBottomOf="@+id/imgArrow"
+                    app:layout_constraintBottom_toBottomOf="@+id/backBtn"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/imgArrow" />
+                    app:layout_constraintTop_toTopOf="@+id/backBtn" />
 
                 <ImageView
                     android:id="@+id/imgShare"
@@ -60,12 +60,12 @@
                     android:background="@drawable/grey_background"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgArrow" />
+                    app:layout_constraintTop_toBottomOf="@+id/backBtn" />
 
                 <ImageView
-                    android:id="@+id/foodPic"
+                    android:id="@+id/itemPic"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="270dp"
                     android:padding="16dp"
                     app:layout_constraintBottom_toBottomOf="@id/view3"
                     app:layout_constraintEnd_toEndOf="@+id/view3"
@@ -86,7 +86,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/view3">
 
                     <TextView
-                        android:id="@+id/txtTitle"
+                        android:id="@+id/txtTitle1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -96,7 +96,7 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:id="@+id/txtPrice"
+                        android:id="@+id/txtPrice1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -123,7 +123,7 @@
                         android:src="@drawable/star" />
 
                     <TextView
-                        android:id="@+id/txtRate"
+                        android:id="@+id/scoreTxt1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -135,18 +135,18 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="4dp"
-                        android:text="Đánh giá"
+                        android:text= "Đánh giá"
                         android:textColor="@color/black" />
 
                     <ImageView
-                        android:id="@+id/imgReview"
+                        android:id="@+id/imgReview1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:src="@drawable/review" />
 
                     <TextView
-                        android:id="@+id/txtReview"
+                        android:id="@+id/txtReview1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
